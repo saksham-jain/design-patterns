@@ -22,3 +22,4 @@ puts navigator.get_route(1,2)
 
 # consider we get more and more other strategies like fare calculator, live speed tracker, etc. Implementing this with inheritance we will have to hard code everything.
 # But with strategy pattern we just need to create strategies and pass it to the navigator.
+# Generally composition is always better than inheritance.
