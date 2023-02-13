@@ -1,3 +1,6 @@
+# Dependency Injection -
+# When object or functions receive other objects it depends on.
+
 # Interface
 class Keyboard
 end
