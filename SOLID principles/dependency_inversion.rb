@@ -28,12 +28,13 @@ class Macbook1
   end
 end
 
-# Follows dependency injection. Extensible code. In future if Macbook has wireless mouse and keyboard, 
+# Follows dependency inversion. Extensible code. In future if Macbook has wireless mouse and keyboard, 
 # We just need to pass those object while initialization.
 class Mackbook2
   attr_reader :keyboard, :mouse
 
   def initialize(keyboard, mouse)
+    # In Java type of keyboard and mouse should be interface and not concrete class.
     @keyboard = keyboard
     @mouse = mouse
   end
