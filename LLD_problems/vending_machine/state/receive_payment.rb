@@ -1,0 +1,3 @@
+class ReceivePayment < IState
+  
+end
