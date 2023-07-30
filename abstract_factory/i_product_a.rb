@@ -1,0 +1,3 @@
+class IProductA
+  
+end
