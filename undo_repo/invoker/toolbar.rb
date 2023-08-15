@@ -24,4 +24,14 @@ class Toolbar < IInvoker
     paste_command.execute
     command_list.add(paste_command)
   end
+
+  def undo
+    command_list.current_pointer.val.unexecute  
+    command_list.current_pointer = command_list.current_pointer.left
+  end
+
+  def redo
+    command_list.current_pointer = command_list.current_pointer.right
+    command_list.current_pointer.val.execute
+  end
 end

@@ -28,8 +28,8 @@ toolbar.press_paste
 toolbar.press_copy
 toolbar.press_paste
 
-command_list.undo
-command_list.undo
-command_list.redo
-command_list.undo
+toolbar.undo
+toolbar.undo
+toolbar.redo
+toolbar.undo
 
